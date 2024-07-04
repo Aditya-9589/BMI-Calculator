@@ -1,0 +1,97 @@
+
+body {
+  background: linear-gradient(135deg, #aab2c5 0%, #92a3ba 100%);
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+main {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-section,
+.output-section {
+  margin: 20px 0;
+}
+
+.slider-output {
+  font-size: 1.2em;
+  color: #333;
+  margin: 10px 0;
+}
+
+.input-slider {
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 8px;
+  background: #ddd;
+  outline: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.input-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #9bbcef;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.input-slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #3356c0;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.input-slider:hover {
+  background: #ccc;
+}
+
+.input-slider::-webkit-slider-thumb:hover {
+  background: #4c5d86;
+}
+
+.input-slider::-moz-range-thumb:hover {
+  background:#495b85;
+}
+
+.output-section {
+  background: #8a4ed4;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.output-section p {
+  margin: 0;
+}
+
+.output {
+  font-size: 2em;
+  font-weight: bold;
+}
+
